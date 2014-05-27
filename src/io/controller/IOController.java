@@ -138,6 +138,19 @@ public class IOController
 
 		return currentGame;
 	}
+	
+	
+	
+	public boolean checkContents(String current)
+	{
+		boolean isThere= false;
+		
+		if(current.contains("Hello world"))
+		{
+			isThere = true;
+		}
+		return isThere;
+	}
 	/**
 	 * 	makes a save
 	 * @param gameTitle
